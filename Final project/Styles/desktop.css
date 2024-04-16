@@ -1,0 +1,648 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #wrapper {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+  }
+  
+  
+  
+  
+  
+  
+  /* #region Header*/
+  .Border a {
+  
+    text-align: center;
+  
+  }
+  
+  
+  
+  
+  
+  #LOGO img {
+  
+    padding-bottom: 1%;
+    width: 300px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  .Border a:link,
+  a:visited {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #1F1E1C;
+    border-bottom: 3px solid transparent;
+    transition: border 1s; /* border fade away timer when link is not hovered over */
+    padding-bottom: 0.1%;
+    padding-top: 0.1%;
+    border-top: 3px solid transparent;
+  }
+    
+  
+  
+  .Border a:hover {
+    border-bottom: 3px solid #1F1E1C;
+    transition: border 1s;
+    padding-bottom: 0.1%;
+    padding-top: 0.1%;
+    border-top: 3px solid #1F1E1C;
+    cursor: crosshair;
+  
+  }
+  
+  #header {
+    background: #D9D9D9 url('../Images/mainBG.jpg') top right no-repeat;
+  
+    min-height: 144px;
+  }
+  
+  #logo {
+    width: 300px;
+  
+  }
+  
+  
+  .Links {
+    padding-bottom: 0%;
+    padding-top: 1%;
+  }
+  
+  .Links li {
+    display: inline;        
+   }
+  
+  /*#endregion*/
+  
+  
+  
+  /*#region main*/
+ 
+  
+  .GeneralInfo {
+    font-weight: normal;
+    padding: 2% 2% 2% 2%;
+    border-radius: 10px 10px 10px 10px; /* give a radius to the border (curve) */
+    
+  
+  
+    background-color: rgba(217, 217, 217, 0.6) /* first 3 numbers are red green blue, and fourth is opacity level */
+  }
+  
+  
+  #FirstP {
+    display: flex;
+    gap: 3%;
+    
+  }
+  
+  
+  #FirstP>div { /* ">" direct child of certain container/element */
+    flex: 50%;
+  }
+  
+  #FirstP img {
+    margin-left: 5%;
+    width: 70%;
+    margin-top: 10%; /* margin is outter space and padding is inner space */
+  }
+  
+  #MainP {
+  
+    
+    margin: auto;
+    width: 50%;
+    line-height: 160%;
+    margin-left: 5%;
+    margin-top: 3%;
+  
+  }
+  
+  #MainP p {
+    padding: 2%;
+    
+  }
+  
+  #Pic-container {
+    vertical-align: middle;
+  }
+  
+  
+  
+  section h2 {
+    margin: 2%;
+  }
+  /*index*/
+
+  body {
+    background: fixed no-repeat;
+    background-image: url(../Images/NewBG.png);
+    background-size: cover;
+  }
+  
+  
+  
+  
+  
+  
+  .Links li {
+    list-style-type: none;
+    display: inline;   
+    text-align: center;
+    margin-right: 4%;
+    vertical-align: middle;
+  
+  }
+  
+  
+  
+  
+  #GameInfo {
+    display: flex;
+    align-items: center;
+    height: auto;
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  
+  
+  
+   .teams {
+    margin-left: 7%;
+  }
+  
+  
+  
+  .teams {
+    list-style-type: circle;
+  
+  
+  }
+  
+  .teams h3 {
+    font-size: 1.7em;
+  }
+  
+  #AboutGame {
+    margin-top: 3%;
+    margin-left: 5%;
+    width: 800px
+  }
+  
+  
+  #AboutGame h2 {
+    width: max-content;
+    padding-left: 2%;
+  }
+  
+  #GameInfo p {
+    padding: 3% 0 3% 3%;
+    line-height: 140%;
+  }
+  
+  .teams li {
+    margin-top: 10%;
+  }
+  
+  
+  
+  .ABOUTCSGO {
+    font-size: 2.5em;
+    color: #000000;
+  
+  }
+  
+  p {
+    padding-bottom: 3%;
+    font-size: 1.3rem;
+   
+  }
+  
+  
+  
+  
+  #InfluenceOfGame {
+    padding-top: 7%;
+    margin: auto;
+  }
+  
+  #InfluenceOfGame>div {
+  
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  
+  
+  
+  #InfluenceOfGame p {
+  
+    font-weight: normal;
+    padding: 3% 3% 3% 3%;
+  
+  
+  
+    background-color: rgba(217, 217, 217, 0.7)
+  }
+  
+  
+  #info {
+    width: 100%;
+  }
+  
+  
+  
+  
+  #AsideTrailer {
+    text-align: center;
+  
+    padding-top: 5%;
+  
+    font-size: 1.7em;
+  
+  }
+  
+  #AsideTrailer>iframe {
+    width: 540px;
+    height: 300px;
+  }
+  
+  
+  
+ 
+  
+  
+  /*#endregion*/
+  
+  
+  
+  
+  
+  /*#region Games main*/
+  .title {
+    margin-top: 3%;
+    font-size: 4.0em;
+    text-align: center;
+  }
+  
+  
+  #PageTitle {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 3%;
+  }
+  
+  #GamesP {
+    width: 50%;
+    margin-left: 25%;
+  }
+  
+  #CounterStrike {
+    background: url(/Images/SOURCE.jpg) top left no-repeat fixed;
+  }
+  
+  
+  
+  #CounterStrike {
+    text-align: center;
+    align-items: center;
+  }
+  
+  
+  
+  
+  #Counter-Strike-Global {
+    background: url(/Images/Global2.jpg) top left no-repeat fixed;
+  
+  }
+  
+  
+  
+  
+  #Counter-Strike-Global {
+    text-align: center;
+    align-items: center;
+  }
+  
+  
+  #GamesArticle iframe {
+    width: 700px;
+    height: 400px;
+  
+  }
+  
+  #GamesArticle section {
+    background-size: 100%;
+    border-radius: 2%;
+    margin-left: 22%;
+    width: 900px;
+    font-size: 1.8em;
+    line-height: 150%;
+    border: 3px solid #FB7E06;
+    align-items: center;
+  
+  }
+  
+  #GamesArticle>section {
+    margin: auto;
+  }
+  
+  #GamesArticle p {
+    font-size: 0.8em;
+    line-height: 170%;
+    text-align: center;
+    margin-left: 3%;
+  }
+  
+  #GamesArticle h2 {
+    font-size: 5em;
+  }
+  
+  #GamesArticle h3 {
+    font-size: 2.5em;
+    padding-right: 55%;
+    padding-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  #Counter-Strike2 {
+    background: url(/Images/CSGO-BG2.jpg) top right no-repeat fixed;
+  
+  
+  }
+  
+  
+  
+  
+  #Counter-Strike2 {
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3%;
+  }
+  
+  
+  
+  /*#endregion*/
+  
+  
+  /*#region aboutus*/
+  
+  #AboutUsP {
+    margin: auto;
+    padding: auto;
+  }
+  
+  #aboutuspic {
+    width: 50% !important;
+  }
+  
+  #aboutusContainer {
+    text-align: center;
+  }
+  
+  
+  
+  
+  /*#endregion*/
+  
+  /*#region contact us*/
+  #ContactContainer {
+    display: flex;
+  
+  
+  }
+  
+  #ContactContainer>div {
+    flex: 50%;
+    margin: 3%;
+  }
+  
+  form {
+    font-size: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    height: max-content;
+    padding: 0.1rem;
+  }
+  
+  
+  
+  form>div {
+    padding: 2%;
+  
+  }
+  
+  form input {
+    width: 40%;
+    height: 2rem;
+    border-radius: 0.4rem;
+  }
+  
+  textarea {
+    width: 50%;
+    border-radius: 0.4rem;
+    border: 0px;
+  }
+  
+  main>h1 {
+    margin-top: 3%;
+  }
+  
+  #contactus+p {
+    width: 50%;
+  }
+  
+  #contactform {
+    background-color: rgba(217, 217, 217, 0.7);
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  #contactform>p {
+    background-color: #0000 !important;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  /*#endregion */
+  
+  
+  
+  h1 {
+    text-align: center;
+    font-size: 2.7em;
+  }
+  
+ 
+  
+  /*#endregion*/
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*#region footer*/
+  footer {
+    text-align: center;
+    padding: 1%;
+    background-image: url(/Images/peakpx2.jpg);
+  
+    margin-top: 3%;
+    font-size: 1.5em;
+  }
+  
+  footer .Links {
+    margin-bottom: 2%;
+  }
+  
+  
+  
+  
+  #steam,
+  #insta {
+    width: 5%;
+    margin: 3%;
+    margin-top: 0;
+  
+  }
+  
+  #steam {
+    margin-left: 0;
+  }
+  
+  
+  /*#endregion*/
+  
+ /* log in */
+
+ .form-box{
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.5) ;
+  border-radius: 20px;
+  backdrop-filter: blur(15px);
+  display: flex;
+  justify-content: center;
+  margin-left: 30%; 
+
+}
+
+.form-value h2{
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+.inputbox{
+  position: relative;
+  margin: 30px 0;
+  width:  310px;
+  border-bottom: 2px solid #fff;
+}
+.inputbox label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 1em;
+  pointer-events: none;
+  transition: .5s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+  top: -5px
+}
+
+.inputbox input{
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  padding: 0 35px 0 5px;
+  color: #fff;
+}
+
+.inputbox ion-icon{
+position: relative;
+right: 8px;
+color: #fff;
+font-size: 1.2em;
+top: 20px;
+}
+.keep{
+margin: 15px;
+font-size: .9em;
+color: #fff;
+display: flex;
+justify-content: space-between;
+}
+.keep label input{
+margin: right 3px; ;
+}
+.keep label a{
+color: #fff;
+text-decoration: none;
+margin-left: 60px;
+}
+
+.keep label a:hover{
+text-decoration: underline;
+}
+
+button{
+width: 100%;
+height: 40px;
+border-radius: 40px;
+background: #fff;
+border: none;
+outline: none;
+cursor: pointer;
+font-size: 1em;
+font-weight: 600;
+}
+
+.register{
+font-size: .9em;
+color: #fff;
+font-weight: 600;
+margin: 25px 0 10px;
+}
+
+.register p a{
+text-decoration: none;
+color: #fff;
+font-weight: 600;
+}
+.register p a:hover{
+text-decoration: underline;
+}
+
+
